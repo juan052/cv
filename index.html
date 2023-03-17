@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi CV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+		  * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }
+            
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            }
+            
+            .header {
+                text-align: center;
+            }
+            
+            .profile-picture {
+                display: block;
+                margin: 0 auto;
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 5px solid #fff;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            }
+            
+            .name {
+                font-size: 36px;
+                color: #333;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            
+            .job-title {
+                font-size: 24px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+            
+            .location {
+                font-size: 14px;
+                color: #777;
+                margin-bottom: 30px;
+            }
+            
+            h2 {
+                font-size: 20px;
+                color: #333;
+                margin-bottom: 10px;
+            }
+            
+            .section {
+                margin-bottom: 30px;
+            }
+            
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            
+            ul li {
+                margin-bottom: 10px;
+            }
+            
+            ul li:last-child {
+                margin-bottom: 0;
+            }
+            
+            ul.skills {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            
+            ul.skills li {
+                display: inline-block;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                padding: 5px 10px;
+                background-color: #ddd;
+                border-radius: 5px;
+                font-size: 14px;
+                color: #333;
+            }
+            
+            ul.skills li:last-child {
+                margin-right: 0;
+            }
+            
+            p {
+                margin: 0;
+                line-height: 1.5;
+            }
+            
+            @media (max-width: 767px) {
+                .name {
+                    font-size: 28px;
+                }
+                
+                .job-title {
+                    font-size: 20px;
+                }
+                
+                ul.skills li {
+                    display: block;
+                }
+            }
+	</style>
+    </head>
+    <body class="container">
+        <header class="header">
+            <img src="img/logo.jpg" class="profile-picture" alt="">
+            <h1 class="name">Juan Huete</h1>
+            <p>Estudiante de ingeneria de sistema</p>
+            <p class="location">Managua, tipitapa</p>
+        </header>
+        <main>
+            <section class="section">
+                <h2>Resumen profesional</h2>
+                <p>No tengo experiencia</p>
+            </section>
+            <section class="section">
+                <h2>Educación</h2>
+                <ul>
+                    <li>
+                        <strong>Nombre de la institución:</strong> Universida
+                        nacional de ingeneria
+                    </li>
+                    <li>
+                        <strong>Titulo obtenido:</strong> Ingeneria de sistema
+                    </li>
+                    <li>
+                        <strong>Fecha de graduación:</strong> 2023
+                    </li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2>Experiencia laboral</h2>
+                <ul>
+                    <li >
+                        <strong>Cargo:</strong> Desarrollador
+                    </li>
+                    <li>
+                        <strong>Nombre de la empresa:</strong> Meta
+                    </li>
+                    <li>
+                        <strong>Fecha de inicio:</strong> Abril/2020
+                    </li>
+                    <li>
+                        <strong>Fecha de finalización:</strong> Julio/2023
+                    </li>
+                    <li>
+                        <strong>Descripción:</strong>Desarrollador Backend
+                        implementado api
+                    </li>
+                </ul>
+            </section>
+            <section class="skill">
+                <h2>Habilidades</h2>
+                <ul class="skills">
+                    <li>Mi habilidad 1</li>
+                    <li>Mi habilidad 2</li>
+                    <li>Mi habilidad 3</li>
+                    <li>Mi habilidad 4</li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
